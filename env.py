@@ -1,0 +1,5 @@
+base_url="http://fastapi-service:8000/"
+admin_username="testuser"
+admin_password="secret"
+view_username="testuser2"
+view_password="secret"
