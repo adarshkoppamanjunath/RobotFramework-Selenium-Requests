@@ -19,6 +19,6 @@ jobs:
     - name: Build and Push Docker Image
       run: |
         IMAGE_NAME=adarsh247/robotframewrktest
-        docker build -t $IMAGE_NAME:latest.
+        docker build -t $IMAGE_NAME:latest .
         docker push $IMAGE_NAME:latest
     
